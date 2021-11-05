@@ -97,7 +97,7 @@ a {
 }
 
 .header .contanier .hero img {
-  max-width: 90%;
+  max-width: 45%;
   height: auto;
 }
 
@@ -180,6 +180,10 @@ a {
     line-height: 1.6;
     text-align: right;
     margin-bottom: 15px;
+  }
+  .header .contanier .hero img {
+    max-width: 90%;
+    height: auto;
   }
   .header .contanier .order button {
     background: #1f3f4a !important;
