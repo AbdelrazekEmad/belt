@@ -40,8 +40,8 @@ window.onload = function reset() {
   radio[0].checked = "checked";
   let counter = document.querySelectorAll("[type='number']");
   for (let i = 0; i < counter.length; i++) {
-    counter[i].value = 1;
-    userInputNum[i].value = 1;
+    counter[i].value = 0;
+    userInputNum[i].value = 0;
   }
 };
 
