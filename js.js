@@ -1,3 +1,15 @@
+// Start Gallary
+let largImg = document.querySelector(".larg_img");
+let smallImgs = document.querySelectorAll(".sm_img img");
+
+smallImgs.forEach((smImg) => {
+  smImg.addEventListener("click", () => {
+    largImg.src = smImg.src;
+  });
+});
+// End Gallary
+
+// Start checkoutForm
 let radio = document.querySelectorAll("[type='radio']");
 let userInputNum = document.querySelectorAll("[type='number']");
 let cards = document.querySelectorAll(".cardholder__card");
@@ -45,3 +57,4 @@ for (let i = 0; i < radio.length; i++) {
     syncData(); // Synchronise Data which user set or choose
   });
 }
+// End checkoutForm
