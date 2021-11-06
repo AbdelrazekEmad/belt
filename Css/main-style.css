@@ -319,6 +319,7 @@ a {
 
 .gallary .contanier .images_contanier .sm_img img {
   width: 100px;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
