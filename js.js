@@ -28,9 +28,9 @@ function syncData() {
   counter.innerHTML = userInputNum.value;
   tProductName.innerHTML = cProductname.innerHTML;
   if (cardId === "offer1") {
-    totalCost.innerHTML = `${610 * userInputNum.value} EGP`;
+    totalCost.innerHTML = `${348 * userInputNum.value} EGP`;
   } else {
-    totalCost.innerHTML = `${550 * userInputNum.value} EGP`;
+    totalCost.innerHTML = `${199 * userInputNum.value} EGP`;
   }
   tProCost[0].innerHTML = totalCost.innerHTML;
   tProCost[1].innerHTML = totalCost.innerHTML;
@@ -55,6 +55,16 @@ for (let i = 0; i < radio.length; i++) {
     radio[i].parentElement.classList.add("active");
 
     syncData(); // Synchronise Data which user set or choose
+  });
+}
+for (let i = 0; i < userInputNum.length; i++) {
+  userInputNum[i].addEventListener("change", function (e) {
+    let check = e.target.parentElement.parentElement.parentElement;
+    if (check.classList.contains("active")) {
+      syncData();
+    } else {
+      console.log("error");
+    }
   });
 }
 // End checkoutForm

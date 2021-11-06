@@ -148,18 +148,19 @@
                         <div class="card__content">
                             <p class="card__name"> <span class="counter">1</span> x عرض قطعتين من المشد</p>
                             <div class="product__num">
-                                <input name="offer1_num" type="number" placeholder="1" min="1" max="4">
+                                <input name="offer1_num" type="number"  min="1" max="4">
                                 <span class="price"> 348 EGP</span>
                             </div>
                         </div>
+                        <span>العرض الأفضل لك</span>
                     </div>
                     <div class="cardholder__card" id="offer2">
                         <input type="radio" name="offer" value="2">
-                        <img src="images/block2.2.png   " alt="offer image">
+                        <img src="images/block2.2.png" alt="offer image">
                         <div class="card__content">
                             <p class="card__name"> <span class="counter">1</span> x قطع واحدة من المشد</p>
                             <div class="product__num">
-                                <input name="offer2_num" type="number" placeholder="1" min="1" max="4">
+                                <input name="offer2_num" type="number"  min="1" max="4">
                                 <span class="price"> 199 EGP</span>
                             </div>
                         </div>
@@ -224,7 +225,7 @@
 
     <!-- Start google-sheet API -->
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbzNTt83ytcVhW_Nr8D7PNzT4vq9x-3OoNyq-_maXvJPHnk6xM1-/exec'
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwmaZDsm-gw_R1J123gN1S7yqEQJtC1JmYo3rwkDYMYzl5uAI0/exec'
         const form = document.forms['google-sheet']
 
         form.addEventListener('submit', e => {
