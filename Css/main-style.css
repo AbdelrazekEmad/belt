@@ -433,7 +433,7 @@ a {
   display: flex;
   flex-direction: column;
   text-align: right;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .form__cardholder {
@@ -543,6 +543,7 @@ table {
   font-size: 18px;
   border: none;
   text-align: right;
+  width: 100%;
 }
 
 table th,
