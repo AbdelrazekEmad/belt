@@ -592,7 +592,7 @@ table td {
 .order__details .btn {
   width: 100%;
   font-size: 24px;
-  background-color: #61ce70;
+  background-color: #1f3f4a ;
   transition: 200ms ease-in;
   color: white;
   border: none;
@@ -603,7 +603,7 @@ table td {
 }
 
 .order__details .btn:hover {
-  background-color: #68a44d;
+  background-color: #42a2c2;
 }
 
 @media (max-width: 768px) {
